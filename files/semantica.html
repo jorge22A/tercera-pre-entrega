@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+<body>
+  <header class="d-flex justify-content-start align-items-center">
+    <img src="../images/logo.png" alt="Logo" class="logo logoSmntc">
+  </header>
+  <nav class="navbar navbar-expand nave">
+    <div class="container-fluid">
+      <ul class="navbar-nav flex-row flex-wrap justify-content-start">
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="../index.html">
+            <span class="d-none d-lg-inline fs-5">Inicio</span>
+            <span class="d-lg-none fs-8">Inicio</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="estructura.html">
+            <span class="d-none d-lg-inline fs-5">Estructura</span>
+            <span class="d-lg-none fs-8">Estructura</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning sub" href="semantica.html">
+            <span class="d-none d-lg-inline fs-5">Semántica</span>
+            <span class="d-lg-none fs-8">Semántica</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="novedades.html">
+            <span class="d-none d-lg-inline fs-5">Novedades</span>
+            <span class="d-lg-none fs-8">Novedades</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="contacto.html">
+            <span class="d-none d-lg-inline fs-5">Contacto</span>
+            <span class="d-lg-none fs-8">Contacto</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="principal">
+    <div class="container">
+
+      <div class="row align-items-center one ">
+        <div class="col-md-6">
+          <h1 class="h111"><strong>Etiquetas semánticas</strong></h1>
+        </div>
+        <div class="col-md-6 img-container">
+          <img src="../images/planeta.png" alt="planeta Image" class="h111">
+        </div>
+      </div>
+      <div class="row rou">
+        <div class="col-12">
+          <p><i>Son etiquetas que indican qué es el contenido que contienen, en lugar de cómo se debe formatear al
+              mostrar el documento HTML en un cliente web. Por ejemplo, pensemos en la etiqueta STRONG. Nos indica que
+              un texto debe resaltarse con mayor fuerza en comparación con otros textos que no sean "strong", similar a
+              la etiqueta B, que indica que un texto debe colocarse en negrita.
+
+              Etiquetas como DIV o P son usadas para indicar divisiones y párrafos, pero no indican el significado de su
+              contenido. En contraste, HTML5 introduce muchas etiquetas que sirven para indicar qué son y cuál es el
+              significado de los elementos dentro del documento, como HEADER, ARTICLE, y FOOTER. Estas etiquetas
+              semánticas ayudan a los motores de búsqueda como Google a indexar más correctamente los contenidos de un
+              sitio web.</i></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2><strong>Etiquetas semánticas estructurales.</strong></h2>
+          <p>Las etiquetas semánticas estructurales permiten que los motores de búsqueda y otros sistemas automáticos
+            sepan con precisión qué partes de un sitio corresponden a la cabecera, cuerpo y pie de página.</p>
+          <h3 class="ha3">&lt;header&gt;</h3>
+          <p>Define la cabecera de la página web.</p>
+          <h3 class="ha3">&lt;footer&gt;</h3>
+          <p>Representa el pie de página que contiene información como derechos de autor y enlaces adicionales.</p>
+          <h3 class="ha3">&lt;section&gt;&lt;article&gt;&lt;aside&gt;</h3>
+          <p>Estas etiquetas definen secciones específicas dentro del cuerpo del documento. También existe la etiqueta
+            <strong>&lt;nav&gt;</strong> para la barra de navegación, que contiene los enlaces a las principales
+            secciones del sitio.
+
+            Al utilizar estas etiquetas semánticas estructurales, los motores de búsqueda podrán identificar qué
+            contenido corresponde a la cabecera, los temas abordados en la página (<strong>&lt;articles&gt;</strong>), o
+            los enlaces a las secciones principales (<strong>&lt;nav&gt;</strong>).</p>
+
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h2><strong>Las etiquetas semánticas no definen un estilo predeterminado</strong></h2>
+          <p>Las etiquetas semánticas no tienen un estilo predefinido. Aunque <strong>&lt;header&gt;</strong> representa
+            una cabecera, el navegador no la posicionará automáticamente en la parte superior del documento. Lo mismo
+            aplica para <strong>&lt;footer&gt;</strong> y <strong>&lt;aside&gt;</strong>. La apariencia y
+            posicionamiento de estos elementos deben definirse a través de CSS.
+
+            En este sentido, HTML5 busca separar el contenido de la forma. Las etiquetas semánticas ayudan a estructurar
+            y definir el significado del contenido, mientras que los estilos visuales son responsabilidad exclusiva de
+            CSS.</p>
+          <h2><strong>¿Por qué debemos utilizar las etiquetas semánticas y cómo nos ayudan?</strong></h2>
+          <p>Una razón clave para utilizar etiquetas semánticas es que Google y otros motores de búsqueda las
+            recomiendan para mejorar la indexación y comprensión del contenido en la web. Estas etiquetas permiten
+            añadir metadatos semánticos que pueden ser interpretados por sistemas automáticos para procesar mejor el
+            contenido de un sitio web.</p>
+          <h3 class="ha3">Mejora en la indexación por motores de búsqueda</h3>
+          <p>Google puede utilizar estas etiquetas para comprender mejor la estructura y contenido de tu página,
+            priorizando los ARTICLES y NAV para mostrar secciones relevantes en los resultados de búsqueda.</p>
+          <h3 class="ha3">Mayor comprensión por parte de sistemas automatizados</h3>
+          <p>Las máquinas podrán identificar mejor qué contenido es importante, facilitando la lectura del documento por
+            sistemas automáticos. Esto permite que Google, por ejemplo, indexe artículos publicados de manera preferente
+            y entienda la organización de tu sitio web a través de la etiqueta <strong>&lt;nav&gt;</strong>.</p>
+
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+  <footer class="bg-dark text-white text-center py-4 bordefuter">
+    <img src="../images/logo2.png" alt="Logo" class="logo-footer mb-2 fu" >
+    <div class="social-icons mb-2">
+      <img src="../images/rsocial1.png" alt="Red Social 1" class="mx-1 anrs" >
+      <img src="../images/rsocial2.png" alt="Red Social 2" class="mx-1 anrs" >
+      <img src="../images/rsocial3.png" alt="Red Social 3" class="mx-1 anrs" >
+      <img src="../images/rsocial4.png" alt="Red Social 4" class="mx-1 anrs" >
+    </div>
+    <p class="mb-0">&copy; 2024 Agustin Juarez Developer. Conéctate con nosotros en nuestras redes sociales para más
+      información.</p>
+  </footer>
+  </div>
+</body>
+
+</html>

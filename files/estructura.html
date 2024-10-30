@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"/>
+  
+</head>
+
+<body>
+  <header class="d-flex justify-content-start align-items-center">
+    <img src="../images/logo.png" alt="Logo" class="logo">
+  </header>
+  <nav class="navbar navbar-expand nave">
+    <div class="container-fluid">
+      <ul class="navbar-nav flex-row flex-wrap justify-content-start">
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="../index.html">
+            <span class="d-none d-lg-inline fs-5">Inicio</span>
+            <span class="d-lg-none fs-8">Inicio</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning sub" href="estructura.html">
+            <span class="d-none d-lg-inline fs-5">Estructura</span>
+            <span class="d-lg-none fs-8">Estructura</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="semantica.html">
+            <span class="d-none d-lg-inline fs-5">Semántica</span>
+            <span class="d-lg-none fs-8">Semántica</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="novedades.html">
+            <span class="d-none d-lg-inline fs-5">Novedades</span>
+            <span class="d-lg-none fs-8">Novedades</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="contacto.html">
+            <span class="d-none d-lg-inline fs-5">Contacto</span>
+            <span class="d-lg-none fs-8">Contacto</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main class="principal">
+    <div class="container">
+
+      <div class="row align-items-center one">
+        <div class="col-md-6">
+          <h1 class="h111"><strong>Novedades de la estructura:</strong></h1>
+        </div>
+        <div class="col-md-6 img-container">
+          <video width="640" height="360" autoplay loop muted class="video1" data-aos="fade-up">
+            <source src="../videos/video1.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <h3 class="ha3">Estructura del cuerpo</h3>
+          <p>La mayoría de las webs tienen un formato común, formado por elementos como cabecera, pie, navegadores, etc.
+            HTML 5 permite agrupar todas estas partes de una web en nuevas etiquetas que representarán cada uno de las
+            partes típicas de una página.</p>
+          <h3 class="ha3">Etiquetas para contenido específico</h3>
+          <p>Hasta ahora se utilizaba una única etiqueta para incorporar diversos tipos de contenido enriquecido, como
+            animaciones Flash o vídeo. Ahora se utilizarán etiquetas específicas para cada tipo de contenido en
+            particular, como audio, vídeo, etc.</p>
+          <h3 class="ha3">Canvas</h3>
+          <p>Es un nuevo componente que permitirá dibujar, por medio de las funciones de un API, en la página todo tipo
+            de formas, que podrán estar animadas y responder a interacción del usuario. Es algo así como las
+            posibilidades que nos ofrece Flash, pero dentro de la especificación del HTML y sin la necesidad de tener
+            instalado ningún plugin.</p>
+          <h3 class="ha3">Bases de datos locales</h3>
+          <p>El navegador permitirá el uso de una base de datos local, con la que se podrá trabajar en una página web
+            por medio del cliente y a través de un API. Es algo así como las Cookies, pero pensadas para almacenar
+            grandes cantidades de información, lo que permitirá la creación de aplicaciones web que funcionen sin
+            necesidad de estar conectados a Internet.</p>
+          <h3 class="ha3">Web Workers</h3>
+          <p>Son procesos que requieren bastante tiempo de procesamiento por parte del navegador, pero que se podrán
+            realizar en un segundo plano, para que el usuario no tenga que esperar que se terminen para empezar a usar
+            la página. Para ello se dispondrá también de un API para el trabajo con los Web Workers.</p>
+          <h3 class="ha3">Aplicaciones web Offline</h3>
+          <p>Existirá otro API para el trabajo con aplicaciones web, que se podrán desarrollar de modo que funcionen
+            también en local y sin estar conectados a Internet.</p>
+          <h3 class="ha3">Geolocalización</h3>
+          <p>Las páginas web se podrán localizar geográficamente por medio de un API que permita la Geolocalización.</p>
+          <h3 class="ha3">Nuevas APIs para interfaz de usuario</h3>
+          <p>Temas tan utilizados como el "drag & drop" (arrastrar y soltar) en las interfaces de usuario de los
+            programas convencionales, serán incorporadas al HTML 5 por medio de un API.</p>
+          <h3 class="ha3">Fin de las etiquetas de presentación</h3>
+          <p>Todas las etiquetas que tienen que ver con la presentación del documento, es decir, que modifican estilos
+            de la página, serán eliminadas. La responsabilidad de definir el aspecto de una web correrá a cargo
+            únicamente de CSS. Como se puede ver, existirán varios API con los que podremos trabajar para el desarrollo
+            de todo tipo de aplicaciones complejas, que funcionarán online y offline. Quizás se entienda mejor por qué
+            HTML 5 es un proyecto tan ambicioso y que está llevando tanto tiempo para ser elaborado.</p>
+        </div>
+        <div class="container">
+          <div class="row align-items-center one">
+            <div class="col-md-6">
+              <h4 id="canvas"><i>( Create Diffusion Particle Interaction with HTML5 Canvas )</i></h4>
+            </div>
+            <div class="col-md-6 img-container frm">
+              <iframe width="560" height="315" src="https://www.youtube.com/embed/3aRuJHrG_I0?si=QQgo3hyw6Kd_jWX0"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+          </div>
+        </div>
+        <div class="row rou">
+          <div class="col-12">
+            <h2><strong>Elementos que dan soporte a nuevas funcionalidades.</strong></h2>
+            <p><i>Existen numerosas novedades dentro del HTML5 que se han representado por etiquetas o elementos de
+                diversa índole. Algunas etiquetas son realmente nuevas y otras ya existían y se han incorporado al
+                estándar.</i></p>
+            <h3 class="h111">Etiquetas para Multimedia:</h3>
+            <h3 class="ha3">&lt;audio&gt;</h3>
+            <p>Para insertar sonido dentro de una web.</p>
+            <h3 class="ha3">&lt;video&gt;</h3>
+            <p>Para insertar clips de vídeo.</p>
+            <h3 class="ha3">&lt;embed&gt;</h3>
+            <p>Para embeber contenido externo de otro tipo, como el traído de diversos plugins que se comercializan
+              actualmente o se comercializarán en el futuro.</p>
+            <h3 class="ha3">&lt;source&gt;</h3>
+            <p>Permite especificar varias fuentes diferentes cuando se insertan elementos en AUDIO y VIDEO.</p>
+            <h3 class="ha3">&lt;track&gt;</h3>
+            <p>Permite especificar varias pistas de sonido o vídeo para los elementos AUDIO y VIDEO.</p>
+          </div>
+        </div>
+        <div class="row rou">
+          <div class="col-12">
+            <h2><strong>Nuevos elementos de formulario</strong></h2>
+            <p><i>En el caso del HTML5 y los formularios tenemos que destacar que no solamente se han creado nuevas
+                etiquetas, sino que se ha añadido soporte a las existentes anteriormente. De momento estas son las
+                nuevas etiquetas que nos ofrece.</i></p>
+            <h3 class="ha3">&lt;meter&gt;</h3>
+            <p>Para trabajar con medidas y escalas.</p>
+            <h3 class="ha3">&lt;progress&gt;</h3>
+            <p>Implementa barras de progreso.</p>
+            <h3 class="ha3">&lt;datalist&gt;</h3>
+            <p>Extensión para crear campos con funcionalidad de autocompletar.</p>
+            <h3 class="ha3">&lt;keygen&gt;</h3>
+            <p>Genera claves pública y privada para encriptación.</p>
+            <h3 class="ha3">&lt;output&gt;</h3>
+            <p>Realizar y mostrar cálculos matemáticos. Pero hablando de novedades en formularios, no debemos dejar de
+              remarcar que HTML5 también trae diversos nuevos usos de INPUT, que nos sirven para especificar qué tipo de
+              información concreta queremos introducir en ellos. Ello proporciona utilidad especial a esos campos INPUT,
+              pensando también en los dispositivos móviles y la forma con la que tratan dichos campos.</p>
+
+          </div>
+        </div>
+
+        <div class="row rou">
+          <div class="col-12">
+            <h2><strong>Ejemplo:</strong></h2>
+            <pre class="h111 pre">
+    &lt;form action="." method="post"&gt;
+    &lt;label for="progress"&gt;Progreso:&lt;/label&gt;
+    &lt;progress id="progress" value="70" max="100"&gt;
+    &lt;/progress&gt;
+
+    &lt;label for="meter"&gt;Nivel:&lt;/label&gt;
+    &lt;meter id="meter" value="0.7" min="0" max="1" 
+    low="0.3" high="0.8" optimum="0.7"&gt;&lt;/meter&gt;
+
+    &lt;label for="browser"&gt;Elige tu navegador:&lt;/label&gt;
+    &lt;input list="browsers" id="browser" name="browser"&gt;
+    &lt;datalist id="browsers"&gt;
+        &lt;option value="Chrome"&gt;
+        &lt;option value="Firefox"&gt;
+        &lt;option value="Safari"&gt;
+        &lt;option value="Edge"&gt;
+    &lt;/datalist&gt;
+
+    &lt;label for="keygen"&gt;Generar clave:&lt;/label&gt;
+    &lt;keygen id="keygen" name="keygen"&gt;
+
+    &lt;label for="range"&gt;Selecciona un valor:&lt;/label&gt;
+    &lt;input type="range" id="range" name="range" min="0" 
+    max="100" oninput="output.value = range.value"&gt;
+    &lt;output name="output" for="range"&gt;50&lt;/output&gt;
+
+    &lt;input type="submit" value="Enviar"&gt;
+    &lt;/form&gt;
+              </pre>
+
+          </div>
+        </div>
+      </div>
+  </main>
+  <footer class="bg-dark text-white text-center py-4 bordefuter">
+    <img src="../images/logo2.png" alt="Logo" class="logo-footer mb-2 fu">
+    <div class="social-icons mb-2">
+      <img src="../images/rsocial1.png" alt="Red Social 1" class="mx-1 anrs" >
+      <img src="../images/rsocial2.png" alt="Red Social 2" class="mx-1 anrs" >
+      <img src="../images/rsocial3.png" alt="Red Social 3" class="mx-1 anrs" >
+      <img src="../images/rsocial4.png" alt="Red Social 4" class="mx-1 anrs" >
+    </div>
+    <p class="mb-0">&copy; 2024 Agustin Juarez Developer. Conéctate con nosotros en nuestras redes sociales para más
+      información.</p>
+  </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script> <script> AOS.init(); </script>
+  
+</body>
+
+</html>

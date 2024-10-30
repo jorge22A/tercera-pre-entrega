@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+  <header class="d-flex justify-content-start align-items-center">
+    <img src="../images/logo.png" alt="Logo" class="logo">
+  </header>
+  <nav class="navbar navbar-expand nave">
+    <div class="container-fluid">
+      <ul class="navbar-nav flex-row flex-wrap justify-content-start">
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="../index.html">
+            <span class="d-none d-lg-inline fs-5">Inicio</span>
+            <span class="d-lg-none fs-8">Inicio</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="estructura.html">
+            <span class="d-none d-lg-inline fs-5">Estructura</span>
+            <span class="d-lg-none fs-8">Estructura</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="semantica.html">
+            <span class="d-none d-lg-inline fs-5">Semántica</span>
+            <span class="d-lg-none fs-8">Semántica</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-warning sub" href="novedades.html">
+            <span class="d-none d-lg-inline fs-5">Novedades</span>
+            <span class="d-lg-none fs-8">Novedades</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white jover" href="contacto.html">
+            <span class="d-none d-lg-inline fs-5">Contacto</span>
+            <span class="d-lg-none fs-8">Contacto</span>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+  <main class="principal">
+    <div class="container">
+
+      <div class="row align-items-center one">
+        <div class="col-md-6">
+          <h1 class="h111 text-shadow-pop-top"><strong>Cambios que podrían implementarse en los próximos años.</strong></h1>
+        </div>
+        <div class="col-md-6 img-container">
+          <img src="../images/cinco.jpg" alt="Logo" class="img-fluid d-lg-none logos">
+          <img src="../images/cinco.jpg" alt="Logo" class="img-fluid d-none d-lg-block logos2">
+        </div>
+      </div>
+
+      <div class="row rou">
+        <div class="col-12">
+          <h2><strong>HTML6</strong></h2>
+          <p>Es la próxima evolución del lenguaje de marcado de hipertexto (HTML), que se utiliza para estructurar y
+            presentar contenido en la web. Aunque aún no se ha lanzado oficialmente, podrían implementarse cambios y
+            mejoras.</p>
+
+          <h3 class="ha3">Sintaxis más concisa y expresiva</h3>
+          <p>HTML6 busca simplificar y modernizar la sintaxis del lenguaje, haciéndolo más fácil de leer y escribir.</p>
+          <h3 class="ha3">Mejor integración con otras tecnologías web</h3>
+          <p>Se espera que HTML6 tenga una mejor compatibilidad con tecnologías emergentes como WebAssembly y CSS4, lo
+            que permitirá crear aplicaciones web más ricas y dinámicas.</p>
+          <h3 class="ha3">Modularidad y extensibilidad</h3>
+          <p>HTML6 podría introducir una mayor modularidad, permitiendo a los desarrolladores importar y reutilizar
+            componentes HTML de manera más eficiente.</p>
+          <h3 class="ha3">Compatibilidad mejorada</h3>
+          <p>Una de las metas es asegurar que HTML6 funcione de manera consistente en diferentes navegadores y
+            dispositivos, mejorando la experiencia del usuario final.</p>
+          <h3 class="ha3">Nuevas etiquetas y atributos</h3>
+          <p>Se están considerando nuevas etiquetas y atributos que podrían facilitar tareas comunes, como la
+            integración de cámaras y micrófonos, y la creación de interfaces de usuario más interactivas.</p>
+
+        </div>
+      </div>
+      <div class="row rou">
+        <div class="col-12">
+          <h2><strong>Los Web Components</strong></h2>
+          <p>Son un conjunto de tecnologías que permiten a los desarrolladores crear elementos personalizados
+            reutilizables con su funcionalidad encapsulada, lo que facilita su uso en aplicaciones web sin preocuparse
+            por conflictos con otros elementos del DOM.</p>
+
+          <h3 class="ha3">Custom Elements</h3>
+          <p>Esta característica permite definir nuevos elementos HTML personalizados y su comportamiento mediante APIs
+            de JavaScript. Puedes crear etiquetas HTML propias que se comporten de manera específica según tus
+            necesidades.</p>
+          <h3 class="ha3">Shadow DOM</h3>
+          <p>El Shadow DOM permite encapsular el árbol DOM de un componente, aislándolo del resto del documento. Esto
+            significa que el estilo y el comportamiento de los componentes no se verán afectados por el resto de la
+            página, y viceversa. Es útil para evitar conflictos de estilo y asegurar que los componentes funcionen de
+            manera consistente.</p>
+          <h3 class="ha3">HTML Templates</h3>
+          <p>Los elementos TEMPLATE y SLOT permiten definir fragmentos de HTML que no se renderizan inmediatamente en la
+            página, pero que pueden ser reutilizados como base para los componentes personalizados. Esto facilita la
+            creación de estructuras HTML complejas de manera eficiente.</p>
+          <h3 class="ha3">ES Modules</h3>
+          <p>Los módulos ES permiten importar y reutilizar código JavaScript de manera modular. Esto es especialmente
+            útil para los Web Components, ya que puedes dividir la lógica de tus componentes en módulos más pequeños y
+            manejables.</p>
+          <h3 class="ha3">Ventajas de usar Web Components</h3>
+          <p>Reutilización, puedes crear componentes que se pueden reutilizar en diferentes proyectos, ahorrando tiempo
+            y esfuerzo. La encapsulación del Shadow DOM asegura que los estilos y scripts de los componentes no
+            interfieran con otros elementos de la página. Los Web Components son compatibles con todos los frameworks y
+            bibliotecas de JavaScript, lo que facilita su integración en cualquier proyecto.</p>
+
+
+
+        </div>
+      </div>
+      <div class="row rou">
+        <div class="col-12">
+          <h2><strong>HTML Modules</strong></h2>
+          <p>Similar a los módulos de JavaScript, los HTML Modules permitirán importar y exportar fragmentos de HTML.
+            Esto facilitará la organización del código y la reutilización de componentes en diferentes contextos.</p>
+        </div>
+      </div>
+
+      <div class="row rou">
+        <div class="col-12">
+          <h2><strong>Extensibilidad.</strong></h2>
+          <p>La extensibilidad se refiere a la capacidad de HTML6 para adaptarse y crecer con nuevas características y
+            tecnologías sin romper la compatibilidad con versiones anteriores. Esto incluye:</p>
+          <h3 class="ha3">Nuevas Etiquetas y Atributos</h3>
+          <p>HTML6 podría introducir nuevas etiquetas y atributos que faciliten tareas comunes, como la integración de
+            multimedia, accesibilidad mejorada y soporte para nuevas tecnologías web.</p>
+          <h3 class="ha3">APIs Mejoradas</h3>
+          <p>Se espera que HTML6 incluya APIs más robustas y flexibles que permitan a los desarrolladores interactuar
+            con el DOM de manera más eficiente y con menos código.</p>
+          <h3 class="ha3">Compatibilidad con Tecnologías Emergentes</h3>
+          <p>HTML6 está diseñado para integrarse mejor con tecnologías emergentes como WebAssembly, lo que permitirá
+            crear aplicaciones web más potentes y eficientes.</p>
+          <h3 class="ha3"></h3>
+          <p></p>
+        </div>
+      </div>
+      <div class="row rou">
+        <div class="col-12">
+          <h2><strong>Mejoras en la accesibilidad</strong></h2>
+          <p>Se están realizando esfuerzos para mejorar la accesibilidad en HTML, incluyendo nuevas etiquetas y
+            atributos que faciliten la navegación y el uso de sitios web para personas con deficiencias físicas o
+            mentales.</p>
+        </div>
+      </div>
+  </main>
+  <footer class="bg-dark text-white text-center py-4 bordefuter">
+    <img src="../images/logo2.png" alt="Logo" class="logo-footer mb-2 fu">
+    <div class="social-icons mb-2">
+      <img src="../images/rsocial1.png" alt="Red Social 1" class="mx-1 anrs">
+      <img src="../images/rsocial2.png" alt="Red Social 2" class="mx-1 anrs">
+      <img src="../images/rsocial3.png" alt="Red Social 3" class="mx-1 anrs">
+      <img src="../images/rsocial4.png" alt="Red Social 4" class="mx-1 anrs">
+    </div>
+    <p class="mb-0">&copy; 2024 Agustin Juarez Developer. Conéctate con nosotros en nuestras redes sociales para más
+      información.</p>
+  </footer>
+   </div>
+</body>
+
+</html>
